@@ -1,0 +1,43 @@
+#detailPageItem {
+    width: 80vw;
+    margin: auto;
+
+    img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: 50% 20%;
+    }
+
+    a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    div {
+        font-family: Moderne Sans;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 1% 5%;
+
+        p {
+            padding: 2% 0;
+            line-height: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
+
+#backHome {
+    color: #333333;
+    text-decoration: none;
+    font-family: SuperMario;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    margin-bottom: 5vh;
+}

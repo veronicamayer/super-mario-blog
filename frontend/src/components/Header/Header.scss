@@ -1,0 +1,29 @@
+@font-face {
+    font-family: SuperMario;
+    src: url(../../assets/fonts/SuperMario256.ttf);
+}
+
+@font-face {
+    font-family: Moderne Sans;
+    src: url(../../assets/fonts/ModerneSansFont.ttf);
+}
+
+header {
+    padding: 10vh 1vw 5vh 0;
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-between;
+
+    h1 {
+        font-family: SuperMario;
+    }
+
+    a {
+        font-family: Moderne Sans;
+        color: black;
+        text-decoration: none;
+        margin-left: 5vw;
+        text-align: right;
+    }
+}
